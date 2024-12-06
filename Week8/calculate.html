@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Java Script Demo </title>
+    </head>
+    <body> 
+        <h1> Javascript Demo </h1>
+        <input type="text" id="a_value">
+        <input type="text" id="b_value">
+        <p id="result"></p>
+        <button type="button" onclick=calculate()> Calculate</button>
+
+        <script> 
+           function calculate () {
+                var a=document.getElementById("a_value"). value;
+                var b=document.getElementById("b_value"). value;
+                var result = parseInt(a)+ parseInt(b);
+                document.getElementById("result").innerHTML= "Result: " + result;
+           }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+span#id1 {
+color: mediumturquoise;
+} 
+.highlight {
+background-color: rgb(255, 163, 127);
+color: black;
+}
+#id2 {
+    background-color: fuchsia;
+}  
+
+span+p{ 
+    font-style: italic;
+    font-weight: bold;
+}

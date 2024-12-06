@@ -1,0 +1,81 @@
+#main-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-nav {
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.featured-article.tech-article {
+    border-left: 4px solid blue;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+article > h2 {
+    color: navy;
+    margin-bottom: 20px;
+}
+
+h2 + .article-content {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+[href="#"] {
+    color: #444;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.nav-link + .nav-link {
+    margin-left: 10px;
+}
+
+.highlight {
+    background-color: #ffffd0;
+    padding: 10px;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+

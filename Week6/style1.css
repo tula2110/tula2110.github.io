@@ -1,0 +1,10 @@
+div.items > a{
+    color:aquamarine;
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}

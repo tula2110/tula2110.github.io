@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h1>Tlam's Calculator</h1>
+    <div class="inputs">
+      <input type="number" id="number1" placeholder="Enter first number">
+      <input type="number" id="number2" placeholder="Enter second number">
+    </div>
+    <div class="buttons">
+      <button onclick="calculate('+')">+</button>
+      <button onclick="calculate('-')">-</button>
+      <button onclick="calculate('*')">×</button>
+      <button onclick="calculate('/')">÷</button>
+    </div>
+    <div class="result" id="result">Result: </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
