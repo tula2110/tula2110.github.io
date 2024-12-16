@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e1;
+    color: #333;
+}
+
+header {
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+h1, h2 {
+    color: #e76f51;
+}
+.recipe-image {
+    width: 100%;         /* Makes the image responsive to its container */
+    max-width: 600px;    /* Limits the image to a reasonable size */
+    height: auto;        /* Keeps the image proportions correct */
+    display: block;      /* Centers the image if needed */
+    margin: 0 auto;      /* Adds automatic horizontal centering */
+    border-radius: 8px;  /* Optional: Adds rounded corners for aesthetics */
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+button {
+    display: block;
+    margin: 1em auto;
+    padding: 0.5em 1em;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21867a;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #264653;
+    color: white;
+}
